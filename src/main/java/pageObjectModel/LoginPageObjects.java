@@ -21,16 +21,13 @@ public class LoginPageObjects {
 	public LoginPageObjects(WebDriver driver2) {
 		this.driver=driver2;
 	}
-	public WebElement
-	entreUsername() {
+	public WebElement entreUsername() {
 		return driver.findElement(username);
 	}
-	public WebElement 
-	entrePassword() {
+	public WebElement entrePassword() {
 		return driver.findElement(password);
 	}
-	public WebElement
-	clickLogin() {
+	public WebElement clickLogin() {
 		return driver.findElement(login);
 	}
 	public WebElement clickonTryForFree() {
